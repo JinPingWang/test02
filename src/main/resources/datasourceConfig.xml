@@ -1,0 +1,20 @@
+<List>
+  <database.DatasourceConfigBean>
+    <databaseType>Mysql</databaseType>
+    <databasePoolName>MysqlDataSource</databasePoolName>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://45.78.33.221:3306/test</url>
+    <username>test</username>
+    <password>test</password>
+    <maxConnectionCount>30</maxConnectionCount>
+  </database.DatasourceConfigBean>
+  <database.DatasourceConfigBean>
+    <databaseType>SqlServer</databaseType>
+    <databasePoolName>SqlServerDataSource</databasePoolName>
+    <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+    <url>jdbc:sqlserver://45.78.33.221:1433;databaseName=test;</url>
+    <username>test</username>
+    <password>test</password>
+    <maxConnectionCount>30</maxConnectionCount>
+  </database.DatasourceConfigBean>
+</List>
